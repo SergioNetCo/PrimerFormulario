@@ -9,35 +9,79 @@
 </head>
 <body>
 
-    <!--========================== FORMULARIO =============================-->
+    <!--========================== FORMULARIO 1 =============================-->
 
-    <div class="contact_form">
-        <div class="formulario">
-            <h1>Formulario</h1>
+    <div class="formularios">
+    <div class="contact_form1">
+        <div class="formulario1">
+            <h1>Formulario 1</h1>
             <h3>Completa el formulario</h3>
         </div>
         <form action="" method="get">
+    
+    <!--=================== CONTENIDO DEL FORMULARIO 1 ======================-->
 
             <p>
-                <label class="colocar_nombre">Nombre: </label>
+                <label class="colocar_nombre1">Nombre: </label>
                 <input type="text" placeholder="Escribe tu nombre">
             </p>
             <p>
-                <label class="colocar_contraseña">Contraseña: </label>
+                <label class="colocar_contraseña1">Contraseña: </label>
                 <input type="text" placeholder="Escribe tu contraseña">
             </p>
             <p>
-                <label class="colocar_email">Email: </label>
+                <label class="colocar_email1">Email: </label>
                 <input type="email" placeholder="Escribe tu dirección">
             </p>
             <p>
-                <label class="colocar_mensaje">Introduce un mensaje personal:</label>
+                <label class="colocar_mensaje1">Introduce un mensaje personal:</label>
                 <textarea name="" placeholder="Introduce aquí tu mensaje" id="" cols="30" rows="1"></textarea>
             </p>
             <p>
-                <button>Enviar datos</button>
+                <button onclick="mensaje('La información se ha enviado')">Enviar datos</button>
             </p>
         </form>
+        </div>
+
+        <!--========================== FORMULARIO 2 =============================-->
+
+        <div class="contact_form3">
+            <div class="formulario3">
+                <h1>Formulario 3</h1>
+                <h3>Completa el formulario</h3>
+            </div>
+
+        <!--=================== CONTENIDO DEL FORMULARIO 2 ======================-->
+
+        <form action="" method="get">
+            <div class="checkbox3">
+                <label class="elegiropcion">Selecciona los cursos ya realizados:</label>
+                <p>
+                    <label class="elegiropcion">ESO  </label><input type="checkbox" placeholder="">
+                    <label class="elegiropcion">SMIR </label><input type="checkbox" placeholder="">
+                    <label class="elegiropcion">ASIR  </label><input type="checkbox" placeholder="">
+                    <label class="elegiropcion">MASTER  </label><input type="checkbox" placeholder="">
+                </p>
+            </div>
+            <div class="numerotlf3">
+                <label class="elegiropcion">Seleccione su edad: </label>
+                <p>
+                    <label class="elegiropcion"></label> <input type="number" placeholder="">
+                </p>
+            </div>
+            <div class="mapa3">
+                <label class="elegiropcion">Encuentre nuestra sede: </label>
+                <p>
+                    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-3.7041091918945317%2C40.41211551146532%2C-3.692135810852051%2C40.41677165135725&amp;layer=mapnik&amp;marker=40.41444362168531%2C-3.698122501373291"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=40.41444&amp;mlon=-3.69812#map=17/40.41444/-3.69812" target="_blank" style="text-decoration: white; color:black;">Abrir el mapa</a></small>
+                </p>
+            </div>
+            <div class="">
+            <p>
+                <button>Enviar datos</button>
+            </p>
+            </div>
+        </form>
+    </div>
     </div>
 </body>
 </html>
