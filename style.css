@@ -64,22 +64,6 @@ button:hover {
 
 /*====================== FORMULARIO 2 ======================*/
 
-.contact_form2 {
-    height: auto;
-    margin: auto;
-    border-radius: 15px;
-    background-color: rgb(250, 241, 229);
-    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.884);
-}
-
-.formulario3 {
-    background-color: rgba(167, 188, 250, 0.63);
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.61);
-}
-
-/*====================== FORMULARIO 3 ======================*/
-
 .contact_form3 {
     height: auto;
     margin: auto;
